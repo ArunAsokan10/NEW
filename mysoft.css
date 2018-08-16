@@ -1,0 +1,41 @@
+nav{
+	display: block;
+	float: right;
+}
+h1{
+	color: red;
+	text-decoration: underline; 
+	text-align: center;
+	margin: 25px;
+	padding: 50px;
+}
+.box{
+	float: right;
+	width:100%;
+	padding-right: 25px;
+}
+.leftBox{
+	float: left;
+	margin:70px;
+	padding-left: 150px;
+}
+.rightBox{
+	float:right;
+	width:50%;
+	}
+h3{
+	text-align: center;
+	text-decoration: underline;
+}	
+p{
+	color: blue;
+}
+img{
+	max-width: 300px;
+	max-height: 200px;
+}
+.centerBox{
+	text-align: center;
+}
+li:nth-child(even){color: blue}
+li:nth-child(odd){color: red}
